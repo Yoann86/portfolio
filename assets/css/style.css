@@ -140,3 +140,36 @@ nav img:hover {
     width: 50%;
     margin: auto;  
 }
+
+.container {
+    display: flex;
+    width: 50vw;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    width: 275px; 
+}
+
+#blob { 
+    display: flex;
+    align-items:self-end;
+    justify-content: center;
+    margin-left: 10px;
+    min-width: 400px;
+    min-height: 400px;
+    background: var(--couleur-bleu); 
+    border-radius: 50%;
+    overflow: hidden;
+ }
+
+ #nixon {
+    
+    width: 275px;
+    height: 350px;
+    
+ }
