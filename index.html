@@ -9,15 +9,70 @@
 
     <title>Portfolio Yoann CURTY</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
-<body>
-    <header>
-        <nav>
+<body id="body">
+    <div id="scrollMenu" >
 
+        <div id="barre-scroll">
+            <div id="rond-scroll">
+                <div id="barr">
+                    <div id="bar1" class="bar-barre"></div>
+                    <!-- <div id="bar2" class="bar-barre"></div> -->
+                    <div id="bar3" class="bar-barre"></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <ul class="ulScroll">
+            <section class="li-titre">MENU</section>
+            <li>
+                <a class="highlightedSombre scroll-a" href="./index.html">Acceuil</a>
+            </li>
+            <li>
+                <a class="scroll-a" href="./html/profil.html">Profil</a>
+            </li>
+            <li>
+                <a class="scroll-a" href="./html/bts.html">BTS SIO</a>
+            </li>
+            <li>
+                <a class="scroll-a" href="./html/ecole.html">Ecole</a>
+            </li>
+            <li>
+                <a class="scroll-a" href="#">Entreprise</a>
+            </li>
+            <li>
+                <a class="scroll-a" href="#">Veille technologique</a>
+            </li>
+            <!-- <li>
+                <a href="#">
+                    <img class="menu-icon" src="./assets/img/moon.png" alt="">
+                </a>
+            </li> -->
+        </ul>
+        <ul class="contact-scroll ulScroll">
+            <section class="li-titre">CONTACT</section>
+            <li><a href=""><img class="menu-icon menu-social-img" src="./assets/img/github.png" alt="">Git</a></li>
+            <li><a href=""><img class="menu-icon menu-social-img" src="./assets/img/linkedin.png" alt="">Linkedin</a></li>
+            <li><a href=""><img class="menu-icon menu-social-img" src="./assets/img/mail.png" alt="">Gmail</a></li>
+            <li></li>
+        </ul>
+        
+    </div>
+    
+        <nav id="nav">
+            <div id="bar">
+                <div class="bar-barre"></div>
+                <div class="bar-barre"></div>
+                <div class="bar-barre"></div>
+            </div>
+            
             <a href="#" class="nom">Yoann CURTY</a>
-            <ul>
+            
+            <ul class="ulNav">
                 <li>
-                    <a href="./index.html">Acceuil</a>
+                    <a class="highlighted" href="./index.html">Acceuil</a>
                 </li>
                 <li>
                     <a href="./html/profil.html">Profil</a>
@@ -26,7 +81,7 @@
                     <a href="./html/bts.html">BTS SIO</a>
                 </li>
                 <li>
-                    <a href="#">Ecole</a>
+                    <a href="./html/ecole.html">Ecole</a>
                 </li>
                 <li>
                     <a href="#">Entreprise</a>
@@ -35,32 +90,36 @@
                     <a href="#">Veille technologique</a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="./assets/img/moon.png" alt="">
+                    <a href="">
+                        <img class="nav-icon" src="./assets/img/moon.png" alt="">
                     </a>
                 </li>
             </ul>
             
         </nav>
-    </header>
+    
 
     <div class="container">
 
+        <div class="container-social">
+            <a href=""><img class="social-img" src="./assets/img/github.png" alt=""></a>
+            <a href=""><img class="social-img" src="./assets/img/linkedin.png" alt=""></a>
+            <a href=""><img class="social-img" src="./assets/img/mail.png" alt=""></a> 
+        </div>
+
         <div class="text-container">
-            <h1>Bonjour</h1>
+            <h1>Bonjour !</h1>
             <h2>Je suis Yoann CURTY</h2>
-            <h3>Etudiant en BTS SIO</h3>
+            <h3>Etudiant en BTS SIO option SLAM, j'aspire à devenir developpeur fullstack. Voici mon portfolio !</h3>
+            <div><a href="" class="contact">Me contacter</a> </div>
         </div>
 
         <div id="blob">
-            <img id="nixon" src="./assets/img/708px-Nixon's_the_One!_(Portrait)_1968_(cropped).png" alt="">
+            <img id="nixon" src="./assets/img/MicrosoftTeams-image__5_-removebg-preview.png" alt="">
         </div>
 
 
     </div>
     
-
-
-
 </body>
 </html>
