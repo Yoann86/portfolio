@@ -3,13 +3,7 @@
 :root {
     /* Couleurs du corps */
     --couleur-body-clair:rgb(252, 241, 241);
-    /* --couleur-body-sombre:#0b071e; */
     --couleur-body-sombre:#232228;
-    /* --couleur-body-sombre:rgba(22,21,29,255); */
-    /* --couleur-body-sombre:rgb(30, 28, 28); */
-    /* --couleur-body-sombre:rgba(34,34,34,1); */
-
-    /* Couleurs du contenu */
     --couleur-bleu:#4f31e4;
     --couleur-bleu-claire:#6c57db;
     --couleur-sombre: white;
@@ -44,8 +38,6 @@ a {
     text-decoration: none;
 }
 
-
-
 /* Barres du menu */
 
 #bar, #barr  {
@@ -60,8 +52,7 @@ a {
     z-index: 400;
     background-color: var(--couleur-bleu);
     border-radius: 100px;
-    z-index: 1;
-    
+    z-index: 1;  
 }
 
 #bar1 {
@@ -77,8 +68,7 @@ a {
 }
 
 #barr {
-    z-index: 2;
-    
+    z-index: 2; 
 }
 
 #barre-scroll {
@@ -119,8 +109,6 @@ a {
 
 /* ============== Scroll menu ============================================================================= */
 
-
-
 #scrollMenu{
     position: fixed;
     display: flex;
@@ -135,7 +123,6 @@ a {
     visibility: hidden;
     transition: all 0.3s ease-in-out;
     z-index: 1;
-     
 }
 
 .ulScroll {
@@ -146,19 +133,16 @@ a {
     font-size: 2rem;
     color: var(--couleur-body-clair);
     margin-top: -28vh;
-    
 }
 
 .contact-scroll li a{
     display: flex;
     align-items: center;
     color: var(--couleur-sombre);
-    
 }
 
 .contact-scroll li a img{
     margin-right: 0.5vw;
-    
 }
 
 .contact-scroll li:hover img {
@@ -563,6 +547,13 @@ nav {
 }
 
 /*AP1*/
+
+.descAP1 {
+    margin: auto;
+    width: 70%;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
 
 .grilleAp1 {
     margin: auto;
