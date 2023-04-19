@@ -10,6 +10,10 @@ let btnPdf = document.getElementById("voirCv");
 
 let page = document.getElementsByClassName("pasIndex");
 
+let coll = document.getElementsByClassName("collapsible");
+let i;
+
+
 if (sessionStorage.getItem("theme")=="dark"){
     body.classList.toggle("dark-mode");
     if (page.length!=0){
@@ -57,8 +61,29 @@ dark[0].addEventListener('click', ()=>{
 });
 
 
-btnPdf.addEventListener('click', ()=>{
-    pdf.classList.toggle("visible");
-});
+if (btnPdf){
+    btnPdf.addEventListener('click', ()=>{
+        pdf.classList.toggle("visible");
+        btnPdf.scrollIntoView();
+    });
+}
 
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+  
+      if (content.style.display === "block") {
+        content.style.display = "none";
+        // console.log(this.children[0].children[1]);
+        this.children[0].children[1].style.rotate ="0deg";
+        
+      } else {
+        content.style.display = "block";
+        this.children[0].children[1].style.rotate ="180deg";
+        this.scrollIntoView();
+      }
+    });
+}
+  
 

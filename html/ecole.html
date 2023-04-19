@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <script src="../assets/js/script.js" defer></script>
+    <script src="../assets/js/ecole.js" defer></script>
 </head>
 <body id="body">
     
@@ -36,19 +37,18 @@
                 <a class="highlightedSombre scroll-a" href="#">Ecole</a>
             </li>
             <li>
-                <a class="scroll-a" href="#">Entreprise</a>
+                <a class="scroll-a" href="./entreprise.html">Entreprise</a>
             </li>
             <li>
-                <a class="scroll-a" href="#">Veille technologique</a>
+                <a class="scroll-a" href="./veilletechno.html">Veille technologique</a>
             </li>
             
         </ul>
-        <ul class="ulScroll">
+        <ul class="contact-scroll ulScroll">
             <section class="li-titre">CONTACT</section>
-            <li>Git</li>
-            <li>Linkedin</li>
-            <li>Gmail</li>
-            <li></li>
+            <li><a href="https://github.com/Yoann86"><img class="menu-icon menu-social-img" src="../assets/img/github.png" alt="">Git</a></li>
+            <li><a href="https://www.linkedin.com/in/yoann-curty-5152aa263/"><img class="menu-icon menu-social-img" src="../assets/img/linkedin.png" alt="">Linkedin</a></li>
+            <li><a href="mailto:yoann.curty@gmail.com"><img class="menu-icon menu-social-img" src="../assets/img/mail.png" alt="">Gmail</a></li>
         </ul>
     </div>
     <nav id="nav">
@@ -72,57 +72,60 @@
                 <a class="highlighted" href="./ecole.html">Ecole</a>
             </li>
             <li>
-                <a href="#">Entreprise</a>
+                <a href="./entreprise.html">Entreprise</a>
             </li>
             <li>
-                <a href="#">Veille technologique</a>
+                <a href="./veilletechno.html">Veille technologique</a>
             </li>
             <li>
-                <a href="">
+                <a >
                     <img class="nav-icon" src="../assets/img/moon.png" alt="">
                 </a>
             </li>
         </ul>
         
     </nav>
-
-    
     <div class="pasIndex"></div>
+    <div id="overlay" class="visible"></div>
 
-    <h2 class="tmp2">A faire :</h2>
+    <!-- DISPLAY GRID A FAIREzadjoppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp -->
+    <h2 class="tmp2">Ateliers de Professionnalisation</h2>
 
-    <br><br>
-    <div class="descBTS">
+    <div class="grid">
+        <div id="ap1" class="card"><p>AP1</p><img src="../assets/img/ap1/Aubergelogo.png" alt=""></div>
+    </div>
 
-        <h3>Important</h3>
-        
-        <ul class="ulBTS">
-        <li>Remplacer les lorems</li>
-        <li>Changer le texte bts</li>
-        <li>Affichage des listes de débouchés avec des fenetres déroulantes</li>
-        <li>Mediaquerries pour les mobiles</li>
-        
-        </ul>
-        <br>
-        
-        <h3>Moins important</h3>
-        <ul class="ulBTS">
-        <li>Finaliser le dark theme et le compléter au fur et à mesure</li>
+    <h2 class="tmp2">Documentations Projets</h2>
+
+    <div class="gridproj">
+        <a class="a-card" href="../assets/pdf/Documentation bilbio Yoann CURTY.pdf">
+            <div  id="biblio" class="card proj">
+                <p>Bibliothèque</p> 
+                <img src="../assets/img/proj/book.png" alt="">
+            </div>
+        </a>
+        <a class="a-card" href="../assets/pdf/Doc GLPI.pdf">
+            <div id="glpi" class="proj card">
+                <p>GLPI</p> 
+                <img src="../assets/img/Glpi.png" alt="">
+            </div>
+        </a>
+
     
-    <br>
-
-        <h3>Osef</h3>
-        <ul class="ulBTS">
-        <li>Animation pour le menu : croix</li>
-        <li>Amélioration visuelle du menu déroulant</li>
-        <li>javascript pour les finir les animations de hover du menu</li>
-        
-        
+    <div class="slider visible">
+        <h1><a href="./ap1.html">Accéder aux documents</a></h1>
+        <img class="slide-image" src="" alt=""/>
+        <p>
+          <span class="slide-image-number">1</span> sur <span class="total-image-number">4</span>
+        </p>
+        <div class="btn backward">
+          <span class="material-icons-outlined">&lsaquo;</span>
+        </div>
+        <div class="btn forward">
+          <span class="material-icons-outlined">&rsaquo;</span>
+        </div>
     </div>
     
-
-
-
 
 </body>
 </html>
