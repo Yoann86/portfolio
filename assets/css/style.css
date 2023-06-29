@@ -559,6 +559,15 @@ h5 img {
     z-index: -1;
 }
 
+.synth {
+    margin: auto;
+    width: 40vw;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*AP1*/
 
 
