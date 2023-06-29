@@ -551,7 +551,16 @@ nav {
     column-gap: 30px;
 }
 
+h5 img {
+    position: absolute;
+    top:22vh;
+    width:300px;
+    right: 20vw;
+    z-index: -1;
+}
+
 /*AP1*/
+
 
 .descAP1 {
     margin: auto;
@@ -590,10 +599,12 @@ nav {
     transition: 0.4s;
 }
 
-#ap1 img {
+
+#ap1 img, #ap2 img {
     height: 100%;
     /* clip-path: polygon(0 0, 73% 0, 47% 100%, 0 100%); */
 }
+
 
 .gridproj {
     margin: auto;
@@ -631,6 +642,11 @@ nav {
     color: white;
     font-size: 2rem;
     justify-content: space-evenly;
+}
+
+#ap2 {
+    color: black;
+    font-size: 2rem;
 }
 
 #ap1 p {
