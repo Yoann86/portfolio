@@ -543,7 +543,12 @@ nav {
 }
 
 .grid {
+    margin: auto;
     margin-top: 30px;
+    display: grid;
+    width: 800px;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 30px;
 }
 
 /*AP1*/
