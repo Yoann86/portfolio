@@ -1063,4 +1063,12 @@ h5 img {
         clip-path: circle(25px at calc(100% - 45px) 45px);
         
     }
+
+    .ulScroll{
+        font-size: 1.5rem;
+    }
+
+    .li-titre {
+        font-size: 1.7rem;
+    }
   }
