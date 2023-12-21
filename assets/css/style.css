@@ -386,7 +386,6 @@ nav {
 .profil-champs {
     width: 70%;
     justify-items: center;
-    
     margin: 10px 0 30px 0 ;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -1131,6 +1130,14 @@ h5 img {
         row-gap: 40px;
     }
 
-    
+    .profil-champs {
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+
+    .button_cv {
+        flex-direction: column;
+        row-gap: 20px;
+    }
 
   }
