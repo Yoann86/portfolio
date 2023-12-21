@@ -549,6 +549,7 @@ nav {
     width: 800px;
     grid-template-columns: repeat(2,1fr);
     column-gap: 30px;
+    row-gap: 20px;
 }
 
 h5 img {
@@ -622,15 +623,16 @@ h5 img {
     width: 800px;
     grid-template-columns: repeat(2,1fr);
     column-gap: 30px;
+    row-gap: 50px;
 }
 
-.a-card {
+/* .a-card {
     height: 140px;
     width: 380px;
     margin: auto;
     display: flex;
 
-}
+} */
 
 .card {
     border-radius: 10px;
@@ -638,8 +640,8 @@ h5 img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 140px;
-    width: 380px;
+    height: 190px;
+    width: 400px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-weight: bolder;
     font-size: 1.2rem;
