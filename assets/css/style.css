@@ -551,11 +551,14 @@ nav {
     row-gap: 20px;
 }
 
+.relative {
+    position: relative;
+}
 h5 img {
     position: absolute;
-    top:22vh;
+    top: 0px;
     width:300px;
-    right: 20vw;
+    right: 0px;
     z-index: -1;
 }
 
@@ -589,7 +592,18 @@ h5 img {
     place-items: center;
 }
 
-.grilleAp1 a {
+.grilleAp3 {
+    margin: auto;
+    margin-top: 60px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 40px;
+    column-gap: 0px;
+    place-items: center;
+}
+
+.grilleAp1 a,.grilleAp3 a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -603,7 +617,7 @@ h5 img {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.grilleAp1 a:hover {
+.grilleAp1 a:hover, .grilleAp3 a:hover {
     transform: scale(1.05);
     transition: 0.4s;
 }
